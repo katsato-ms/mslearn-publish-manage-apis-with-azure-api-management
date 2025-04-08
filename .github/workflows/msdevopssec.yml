@@ -2,9 +2,9 @@ name: MSDO
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
-    branches: ["main"]
+    branches: ["master"]
 jobs:
   sample:
     name: Microsoft Security DevOps
